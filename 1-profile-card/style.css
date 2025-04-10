@@ -1,0 +1,79 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+   font-family:"Roboto", Arial, Helvetica, sans-serif ;
+}
+
+body{
+   height:  100vh;
+   background:linear-gradient( #ece9e6, #ffffff) ;
+   display: flex;
+   justify-content: center;
+  
+   align-items: center;
+}
+
+.profile-pic img{
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: contain;
+  border:3px solid  #4e54c8;
+  margin-bottom:1rem;
+
+}
+
+.card{
+  background-color: #ffffff;
+  padding: 2rem;
+  width: 300px;
+  text-align: center;
+  border-radius: 20px;
+  box-shadow: 0 15px 28px rgba(0, 0,0, 0.5);
+  transition: transform 0.3s ease box-shadow 0.3s ease ;
+}
+
+.card:hover{
+  transform: translateY(-15px);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2)
+}
+h2{
+  margin-bottom: 0.2vh;
+  color: #4e54c8;
+}
+.degination{
+  color: #777;
+  font-size: 0.90rem;
+  margin-bottom: 1rem;
+}
+
+.bio {
+  font-size: 0.9rem;
+  color: #500;
+  margin-bottom: 1.5rem;
+}
+.social a{
+  margin: 0 0.5rem;
+  color: #4e54c8;
+  font-size: 1.2rem;
+  transition: color 0.3s;
+}
+.social a:hover {
+color: #2c2e91;
+}
+@media (max-width:400px) {
+  .card{
+    width: 90%;
+    padding: 1.6rem;
+  }
+  .profile-pic img {
+    width: 100px;
+    height: 100px;}
+}
+
+
+
+
+
+
