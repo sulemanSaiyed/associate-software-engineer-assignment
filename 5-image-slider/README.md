@@ -1,7 +1,9 @@
-# Anagram Check
+### Features:
+- Displays one image at a time
+- Next and Previous buttons to navigate
+- Smooth transition animation
+- Hover effects
+- Responsive layout
 
-This Java program checks whether two input strings are anagrams.
 
-## Example
-- Input: `listen`, `silent`
-- Output: `true`
+![Screenshot Description](Screenshot.png)
